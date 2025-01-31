@@ -1,0 +1,163 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Tahoma, Geneva, san-serif;
+}
+.header {
+		background: #000;
+		height: 1000px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.header h1{
+		font-size: 12px;
+		color: #fff;
+		font-weight: 200px;
+	}
+	.header1 {
+		background: #000;
+		height: 100px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.header1 h1{
+		font-size: 12px;
+		color: #fff;
+		font-weight: 200px;
+	}
+	.banner h1{
+		font-size: 100px;
+		color: #0a2040;
+	}
+	.banner{
+		display: flex;
+		justify-content: center;
+		background: #000;
+	}
+	.banner img{
+		width: 400px;
+	}
+	.message h1{
+		padding: 100px 100px 50px 100px;
+		font-size: 12px;
+	}
+	.hi{
+		display: flex;
+		justify-content: center;
+		background: #fff;
+	}
+	.message1 h1{
+		padding: 0px 100px 100px 100px;
+		font-size: 12px;
+	}
+	.header2 {
+		background: #ccc;
+		height: 1000px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+/*
+.header {
+	background: gray;
+	height: 70px;
+	width: auto;
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+	padding: 10px 10px 20px 15px;
+
+}
+
+.header h1{
+	font-size: 40px;
+	color: fff;
+	font-weight: 400px;
+}
+.banner h1{
+	font-size: 700px;
+	color: #0a2040;
+	padding: auto;
+}
+*/
+@media(max-width: 700px){
+
+	.header {
+		background: #000;
+		height: 1000px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.header h1{
+		font-size: 12px;
+		color: #fff;
+		font-weight: 200px;
+	}
+	.header1 {
+		background: #000;
+		height: 100px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.header1 h1{
+		font-size: 12px;
+		color: #fff;
+		font-weight: 200px;
+	}
+	.banner h1{
+		font-size: 100px;
+		color: #0a2040;
+	}
+	.banner{
+		display: flex;
+		justify-content: center;
+		background: #000;
+	}
+	.banner img{
+		width: 400px;
+	}
+	.message h1{
+		padding: 100px 100px 50px 100px;
+		font-size: 12px;
+	}
+	.hi{
+		display: flex;
+		justify-content: center;
+		background: #fff;
+	}
+	.message1 h1{
+		padding: 0px 100px 100px 100px;
+		font-size: 12px;
+	}
+	.header2 {
+		background: #ccc;
+		height: 1000px;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.header4 {
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+}
